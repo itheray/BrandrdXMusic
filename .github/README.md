@@ -17,7 +17,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Destroyerofworldd&repo=Destroyer_music&theme=flag-india)
 
-[![GIF](https://github.com/Destroyerofworldd/Destroyer_music/blob/main/Destroyerofworldd.gif)](https://github.com/Destroyer_music)
+[![GIF](https://github.com/itheray/BrandrdXMusic/blob/main/itheray.gif)](https://github.com/BrandrdXMusic)
    
 
 
