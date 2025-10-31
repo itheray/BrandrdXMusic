@@ -4,7 +4,7 @@
   ➥ 𝖳ʜᴇɴ ʜᴏsᴛ ᴏɴ ʜᴇʀᴋᴏᴜ 👨🏻‍💻
 <h1 align="center"
  
-### 𝙁𝘼𝘿𝙀𝘿 𝙊𝙋 ⚡
+### 𝙍𝘼𝙔 𝙊𝙋 ⚡
 <h1 align="center"
   
  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
