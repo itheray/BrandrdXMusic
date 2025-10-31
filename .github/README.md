@@ -18,11 +18,10 @@
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Destroyerofworldd&repo=Destroyer_music&theme=flag-india)
 
 [![GIF](https://github.com/Destroyerofworldd/Destroyer_music/blob/main/Destroyerofworldd.gif)](https://github.com/Destroyer_music)
-   [![ALPHA](https://github-stats-alpha.vercel.app/api?username=Destroyerofworldd "DESTROYER")](https://github-stats-alpha.vercel.app/api?username=Destroyerofworldd "DESTROYER")
+   [![ALPHA](https://github-stats-alpha.vercel.app/api?username=Destroyerofworldd"DESTROYER")](https://github-stats-alpha.vercel.app/api?username=Destroyerofworldd "DESTROYER")
 
 
 </p>
-ʀᴀᴜsʜᴀɴ
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
 </p>
