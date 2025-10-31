@@ -8,7 +8,7 @@ from BrandrdXMusic.mongo.afkdb import LOGGERS as OWNERS
 from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("akksososijshsjsisisb"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
