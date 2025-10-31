@@ -1,8 +1,11 @@
 import asyncio
 import importlib
+import os
 from sys import argv
+from threading import Thread
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
+from flask import Flask
 
 import config
 from BrandrdXMusic import LOGGER, app, userbot
@@ -11,6 +14,18 @@ from BrandrdXMusic.misc import sudo
 from BrandrdXMusic.plugins import ALL_MODULES
 from BrandrdXMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
+
+# --- UptimeRobot Web Server ---
+web_app = Flask(__name__)
+
+@web_app.route('/')
+def hello_world():
+    return 'Bot is alive!'
+
+def run_web_server():
+    port = int(os.environ.get("PORT", 8080))
+    web_app.run(host='0.0.0.0', port=port)
+# ------------------------------
 
 
 async def init():
@@ -23,6 +38,13 @@ async def init():
     ):
         LOGGER(__name__).error("Assistant client variables not defined, exiting...")
         exit()
+    
+    # Start the web server in a separate thread
+    LOGGER(__name__).info("Starting UptimeRobot web server...")
+    web_thread = Thread(target=run_web_server)
+    web_thread.daemon = True
+    web_thread.start()
+    
     await sudo()
     try:
         users = await get_gbanned()
