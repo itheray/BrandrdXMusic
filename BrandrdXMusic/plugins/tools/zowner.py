@@ -25,7 +25,7 @@ async def help(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("clone"))
+@app.on_message(filters.command("sksiosjssissmwn"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
